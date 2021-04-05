@@ -142,10 +142,27 @@ section div {
   padding: 0 .5em;
   margin: .5em 0 0;
   z-index: 1;
+  font-style: italic;
+}
+
+div strong {
+  font-weight: normal;
 }
 
 section div img {
   width: 1em;
   height: 1em;
   margin-right: .5em;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: .875rem;
+  align-items: center;
+}
+
+footer a {
+  color: #000;
 }
